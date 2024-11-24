@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=drafts" />
 </head>
-<body class="font-primary">
+<body class="font-primary flex flex-col gap-2 bg-gray-100">
     <!-- headerSection -->
     <header class="bg-gray-100 md:flex justify-between md:p-3 md:items-center md:px-16">
         <!-- logodiv -->
@@ -51,7 +51,7 @@
 
 
   <!-- main section -->
-  <section id="mainSection" class="bg-red-700 p-2 h-screen pt-32  bg-gradient-to-tr gap-3 flex flex-col items-center from-gray-200 justify-center to-gray-100">
+  <section id="mainSection" class="bg-red-700  p-2 h-full pt-32  bg-gradient-to-tr gap-3 flex flex-col items-center from-gray-200 justify-center to-gray-100">
     <div id="heroText" class=" flex items-center  justify-between w-96">
         <div class="h-1 w-20 bg-red-600"></div>
         <h3 class="text-3xl text-gray-500 ">THE SCRABBLE</h3>
@@ -77,8 +77,29 @@
 
   </section>
   <!-- aboutPage -->
-  <section id="aboutSection">
+  <section id="aboutSection" class="bg-gray-100 items-center px-16 pt-12 flex flex-col">
+      <div class="flex justify-around gap-64">
+            <div  id="aboutHead" class="text-nowrap">
+        <h2 class="text-5xl font-bold">About Us</h2>
 
+        </div>
+        <div id="aboutPera" class="text-lg gap-3">
+                <p class="font-bold">At Scrabbles, we’re not just another digital marketing agency—we’re a dynamic
+                    team of six dedicated freelancers who live and breathe digital innovation</p> <br>
+                <p class="font-bold text-gray-600">
+                   
+                    With tailored solutions and a focus on measurable outcomes, we empower
+                        brands to connect with their audience and achieve their goals in the digital
+                    landscape.
+                </p>
+        </div>
+    </div>
+        <div id="aboutImg">
+            <img src="./assets/graph.png" class="w-[110vw]" alt="">
+            
+            
+        </div>
+    
   </section>
   <!-- ourservices  section -->
    <section id="ourservicesSection">
